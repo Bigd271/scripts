@@ -1,0 +1,9 @@
+[Unit]
+Description=NOIp Dynamic ip
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/noip2
+
+[Install]
+WantedBy=multi-user.target
